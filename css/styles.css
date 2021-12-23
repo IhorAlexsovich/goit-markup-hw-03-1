@@ -10,6 +10,11 @@ body{
   max-width: 100%;
   height: auto;
 }
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 :root{
   --brand-color: #212121;
 
@@ -17,6 +22,7 @@ body{
 .link{
   color: #212121;
   text-decoration: none;
+  
 }
 /*header*/
 .page-header{
@@ -28,6 +34,8 @@ body{
 }
 .web-studio-link{
   text-decoration: none;
+  margin-right: 93px;
+  
 
 }
 
@@ -58,13 +66,28 @@ body{
 
 }
 /*nav */
-
+.header-container{
+ 
+  display:flex;
+  align-items: center;
+}
+.header-connect{
+  margin-left: 215px;
+}
+.navigation-list:not(:last-child){
+  margin-right: 50px;
+}
 .navigation-links{
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   line-height: 1.14;
-  
+  display: flex;
+  padding: 32px 0;
+}
+
+.contacts-mail-links{
+  margin-right: 50px;
 }
 .contacts-mail-links,
 .contacts-tel-links{
@@ -87,15 +110,21 @@ body{
 /*order-main */
 
 .order{
-  width: 1600px;
+  width: 1200px;
   height: 400px;
   left: 0px;
   top: 80px;
-
   background: #2F303A;
 }
+.order-tetle{
+  
+}
 .order-text{
- 
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;

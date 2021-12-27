@@ -110,9 +110,7 @@ ul,li{
 .portfolio-list{
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #EEEEEE;
-  padding-top: ;
-  background: #E5E5E5
+
 }
 
 .portfolio-image:not(:nth-child(3n)) {
@@ -125,12 +123,15 @@ ul,li{
 }
 .portfolio-image{
   flex-basis: calc((100% - 60px) /3);
+  background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+  
 }
 .img{
   display: block;
 }
 .portfolio-container{
- 
 }
 .current{
   color:#2196F3 ;

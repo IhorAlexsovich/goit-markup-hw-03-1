@@ -84,7 +84,7 @@ img{
   
 }
 .header-connect{
-  margin-left: 215px;
+  margin-left: auto;
 }
 .navigation-list:not(:last-child){
   margin-right: 50px;
@@ -126,7 +126,7 @@ img{
   display: flex;
   justify-content: center;
   
-  margin-bottom: 50px;
+  margin-bottom: 56px;
 }
 .portfolio-list{
   display: flex;
@@ -144,14 +144,21 @@ img{
 }
 .portfolio-paragraf{
   padding: 20px 24px;
+  
 }
 .title-portfolio{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   margin-bottom: 4px;
   
 }
 .title-portfolio-function{
   color: #757575;
-
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-container{
@@ -274,6 +281,7 @@ img{
     text-align: center;
     display: flex;
     padding-bottom: 94px;
+    padding-top: 94px;
   }
   .team-list{
     display: flex;
@@ -289,6 +297,9 @@ img{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+  .team-paragraf{
+    padding: 30px 0 30px 0;
+  }
   .title-team{
     justify-content: center;
     font-weight: bold;
@@ -299,7 +310,7 @@ img{
     margin-left: auto;  
     margin-right: auto; 
     margin-bottom: 50px;
-    padding-top: 94px;
+    
   }
   
 .team-subtitle{
@@ -307,13 +318,13 @@ img{
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
-  margin:30px auto 10px auto;
+  margin-bottom: 10px;
 }
 .team-functions{
   font-size: 16px;
   line-height: 1.18;
   color: #757575;
-  margin:0 auto 30px auto;
+  
 }
 /*contact */
 
